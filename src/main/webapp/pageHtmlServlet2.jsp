@@ -2,20 +2,19 @@
   Created by IntelliJ IDEA.
   User: Administrateur
   Date: 10/06/2025
-  Time: 12:22
+  Time: 15:27
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>page html jsp</title>
+    <title>Title</title>
     <style>
-
-    <%@include file="style/style.css"%>
+        <%@include file="style/style.css"%>
     </style>
 </head>
 <body>
-    <h1>page html jsp </h1>
-    <h2>avec un h2 pour la form </h2>
+<h1>page s2</h1>
+
 </body>
 </html>

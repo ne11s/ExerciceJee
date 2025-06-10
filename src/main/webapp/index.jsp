@@ -3,6 +3,10 @@
 <html>
 <head>
     <title>JSP - Hello World</title>
+    <style>
+
+        <%@include file="style/style.css"%>
+    </style>
 </head>
 <body>
 <h1><%= "Hello World!" %>
@@ -12,5 +16,8 @@
 <a href="brutservlet">text brut Servlet</a>
 <a href="htmlTextServlet">html text Servlet</a>
 <a href="pageHtmlServlet">page html Servlet</a>
+<a href="pageHtmlServlet3">page html Servlet 2</a>
+<a href="pageHtmlServlet3">page html Servlet 3</a>
+
 </body>
 </html>
