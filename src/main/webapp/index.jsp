@@ -6,10 +6,15 @@
     <style>
 
         <%@include file="style/style.css"%>
+        body {
+            display: flex;
+            flex-direction: column;
+        }
     </style>
 </head>
 <body>
-<h1><%= "Hello World!" %>
+<h1>
+    <%= "Hello World!" %>
 </h1>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
