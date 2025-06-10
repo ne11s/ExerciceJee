@@ -9,13 +9,11 @@
 <html>
 <head>
     <title>page html jsp</title>
-    <style>
-
-    <%@include file="style/style.css"%>
-    </style>
+    <%@include file="WEB-INF/allCss.jsp"%>
 </head>
 <body>
-    <h1>page html jsp </h1>
-    <h2>avec un h2 pour la form </h2>
+    <%@include file="WEB-INF/header.jsp"%>
+    <h2>page html jsp </h2>
+    <h3>avec un h3 pour la form </h3>
 </body>
 </html>
